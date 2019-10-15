@@ -21,6 +21,7 @@ A library for safe markup escaping.
 %package -n python3-markupsafe
 Summary:        Implements a XML/HTML/XHTML Markup safe string for Python 3
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 %{?python_provide:%python_provide python3-markupsafe}
 
 %description -n python3-markupsafe
