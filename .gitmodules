@@ -1,0 +1,3 @@
+[submodule "markupsafe"]
+	path = markupsafe
+	url = https://git.sailfishos.org/mirror/markupsafe.git
