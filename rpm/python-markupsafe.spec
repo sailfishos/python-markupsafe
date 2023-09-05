@@ -2,7 +2,7 @@
 %define python3_sitearch %(%{__python3} -c "from distutils.sysconfig import get_python_lib; print(get_python_lib(1))")
 
 Name: python-markupsafe
-Version: 1.1.1
+Version: 2.1.3
 Release: 1
 Summary: Implements a XML/HTML/XHTML Markup safe string for Python
 License: BSD
