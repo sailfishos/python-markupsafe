@@ -1,6 +1,3 @@
-# fixme: should be defined in base system side
-%define python3_sitearch %(%{__python3} -c "from distutils.sysconfig import get_python_lib; print(get_python_lib(1))")
-
 Name: python-markupsafe
 Version: 2.1.3
 Release: 1
@@ -33,6 +30,5 @@ CFLAGS="$RPM_OPT_FLAGS" %{__python3} setup.py build
 rm %{buildroot}%{python3_sitearch}/markupsafe/*.c
 
 %files -n python3-markupsafe
-%defattr(-,root,root,-)
 %license LICENSE.rst
 %{python3_sitearch}/*
